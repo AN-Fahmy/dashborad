@@ -7,32 +7,32 @@
           <div class="col-12 my-2">
             <div class="row g-0 p-0 align-items-center justify-content-center text-center">
 
-              <div class="col-2">
+              <div class="col-md-2">
                 <div class="image">
                   <img [src]="transation.imgSrc" class="rounded-circle" [alt]="transation.title">
                 </div>
               </div>
 
-              <div class="col-3">
+              <div class="col-md-3">
                 <div class="title">
                   {{transation.title}}
                 </div>
               </div>
 
-              <div class="col-2">
+              <div class="col-md-2">
                 <div class="price">
                   {{transation.price}}
                 </div>
               </div>
 
-              <div class="col-3">
+              <div class="col-md-3">
                 <div class="shop-location">
                   <div class="shop">{{transation.shop}}</div>
                   <div class="location text-muted">{{transation.location}}</div>
                 </div>
               </div>
 
-              <div class="col-2">
+              <div class="col-md-2">
                 <div class="status fw-bold" [ngClass]="{
                   'confirmed': transation.status == 'confirmed',
                   'pending': transation.status == 'pending',
@@ -41,6 +41,7 @@
                   {{transation.status.toUpperCase()}}
                 </div>
               </div>
+              <hr class="my-1">
 
             </div>
           </div>
