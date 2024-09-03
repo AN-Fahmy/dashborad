@@ -1,0 +1,23 @@
+.tital{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.transation-wrapper{
+  height: 170px;
+}
+.transation{
+  img{
+    width: 55px;
+  }
+}
+.status{
+  &.confirmed{
+    color: #6920f6;
+  }
+  &.pending{
+    color: #7e0505;
+  }
+  &.shipping{
+    color: #044342;
+  }
+
+}
